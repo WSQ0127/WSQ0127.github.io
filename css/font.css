@@ -27,19 +27,15 @@
   content: "\ec22";
 }
 
-.icon-Microsoft-Outlook:before {
-  content: "\e6d7";
-}
-
 .icon-qq:before {
   content: "\e600";
 }
 
-.icon-OUTLOOK:before {
+.icon-outlook:before {
   content: "\e641";
 }
 
-.icon-wangyi:before {
+.icon-163:before {
   content: "\e602";
 }
 
@@ -47,7 +43,7 @@
   content: "\e675";
 }
 
-.icon-Bilibili:before {
+.icon-bilibili:before {
   content: "\e61f";
 }
 
