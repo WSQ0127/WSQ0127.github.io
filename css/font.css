@@ -56,3 +56,7 @@
   font-display: swap;
   src: url('/themes/Butterfly/source/css/站酷仓耳渔阳体-W01.ttf') format("truetype");
 }
+
+body {
+  font-family: 'zcoolce';
+}
