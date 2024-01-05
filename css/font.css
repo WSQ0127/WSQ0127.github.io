@@ -1,11 +1,23 @@
 @font-face {
     font-family: 'zcoolce';
     font-display: swap;
-    src: url('/themes/Butterfly/source/css/zcoolce.ttf') format("truetype");
+    src: url('/css/zcoolce.ttf') format("truetype");
 }
 
 @font-face {
     font-family: 'zcoolit';
     font-display: swap;
-    src: url('/themes/Butterfly/source/css/zcoolit.ttf') format("truetype");
+    src: url('/css/zcoolit.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'yrdz';
+    font-display: swap;
+    src: url('YangRenDongZhuShiTi-Regular-2.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'sys';
+    font-display: swap;
+    src: url('SourceHanSerifCN-Regular-1.otf') format("opentype");
 }
