@@ -19,5 +19,5 @@
 @font-face {
     font-family: 'sys';
     font-display: swap;
-    src: url('SourceHanSerifCN-Regular-1.otf') format("opentype");
+    src: url('SourceHanSerifCN-Regular-1.ttf') format("truetype");
 }
