@@ -18,7 +18,7 @@ $(document).ready(function () {
     AV.init({
         appId: "xCEvtuGXaoLGB8waobfxpauY-MdYXbMMI",
         appKey: "G4K1MO2hUcSYwftGFpRNiyTk",
-        serverURL: "6LgjVpINsK31eDrGKew4VgoM"
+        serverURL: "https://xcevtugx.api.lncldglobal.com"
     });
     var dianzans = [];
     var hrefs = [];
