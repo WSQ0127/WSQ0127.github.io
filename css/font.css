@@ -3,21 +3,3 @@
     font-display: swap;
     src: url('/css/zcoolce.ttf') format("truetype");
 }
-
-@font-face {
-    font-family: 'zcoolit';
-    font-display: swap;
-    src: url('/css/zcoolit.ttf') format("truetype");
-}
-
-@font-face {
-    font-family: 'yrdz';
-    font-display: swap;
-    src: url('YangRenDongZhuShiTi-Regular-2.ttf') format("truetype");
-}
-
-@font-face {
-    font-family: 'sys';
-    font-display: swap;
-    src: url('SourceHanSerifCN-Regular-1.ttf') format("truetype");
-}
