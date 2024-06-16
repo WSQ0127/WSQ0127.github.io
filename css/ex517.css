@@ -1,0 +1,395 @@
+/* ==UserStyle==
+@name          Ex517
+@namespace      github.com/openstyles/stylus
+@version        0.0.2
+@description    A new userstyle
+@author         wsq127
+==/UserStyle== */
+
+@-moz-document regexp("https://(www.)?517coding.com/(?!problemsets/.*/problems/.*).*") {
+    /*普通*/
+    /*全局*/
+    body
+    {
+        background-image: url(https://image.wsq127.top/file/41137d6c4115155569877.jpg);/*背景图片，可自行修改*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .main-layouts_main__byKRK
+    {
+        background-color: #fff0;
+    }
+    p,h1,h2,h3,h5,h6,a
+    {
+        color: #EFF0EF;
+    }
+    /*滚动条*/
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(137, 81, 234, .99);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #5e72e4;
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 10px;
+        background-color: rgba(0, 0, 0, .12);
+    }
+    /*考级提示*/
+    .arco-alert
+    {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        width: 500px;
+        border: 0.1px solid #ccc;
+        box-shadow: 2px 5px 13px rgba(0, 0, 0, 0.2);
+        background-color: #1E2B48ee;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+    .arco-alert:hover
+    {
+        transform: translateY(-3px);
+        box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    /*顶栏*/
+    .arco-menu-item>a>img
+    {
+        content: url(https://image.wsq127.top/file/8f9de0dc753a347ed745d.png);
+    }
+    .arco-link>img
+    {
+        content: url(https://image.wsq127.top/file/8f9de0dc753a347ed745d.png);
+    }
+    .layout-header_arco-menu__qaCWA
+    {
+        background-color:#fff0;
+    }
+    .layout-header_navbar__a866S
+    {
+        margin: auto;
+        width: 1400px;
+        margin-top: 2px;
+        border-radius: 30px 30px 30px 30px;
+    }
+    .layout-header_navbar__a866S
+    {
+        background-color: #232324;
+    }
+    #__next >section>.arco-layout-header
+    {
+        margin: auto;
+        width: 1400px;
+        height: 80px;
+        margin-top: 2px;
+        border-radius: 30px 30px 30px 30px;
+    }
+    #__next >section>.arco-layout-header
+    {
+        background-color: #232324;
+    }
+    .index_title__ZaaoU
+    {
+        margin: auto;
+        margin-top: 10px;
+    }
+    .index_navbar__A4ydk
+    {
+        background-color:#fff0;
+    }
+    .arco-menu-inner
+    {
+        background-color: #fff0; 
+    }
+    .layout-header_right__oSVlJ
+    {
+        transform: translateX(-15px);
+    }
+    /*卡片*/
+    .arco-divider-horizontal
+    {
+        display: none;
+    }
+    .arco-card
+    {
+        background-color: #232324bb;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        box-shadow: 2px 5px 13px rgba(0, 0, 0, 0.2);
+    }
+    .arco-card:hover
+    {
+        border-radius: 10px;
+        transform: translateY(-3px);
+        box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.2);
+        background-color: #232324dd;
+    }
+    /*大标题*/
+    .index_header__ogLm7
+    {
+        background-color: #fff0; 
+    }
+    .container
+    {
+        margin-top: 15px;
+        border-radius: 15px;
+    }
+    /*底栏*/
+    .main-layouts_footer__yILeW
+    {
+        background-color: #ffffff00;
+        border-top: none;
+    }
+    /*列表*/
+    .arco-table-content-scroll
+    {
+        border-radius: 5px;
+        margin-top: 15px;
+        transition: all 0.3s ease;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+        
+    }
+    /*题目*/
+    .index_contest-layout-basic__wvbdI
+    {
+        border-radius: 15px;
+        background-color: #232324F0;
+    }
+    .problem_container__tWXAL
+    {
+        margin-left: 10px;
+    }
+    .editor_footer__PdYnR
+    {
+        margin-bottom: 10px;
+        border-radius: 0px 0px 10px 10px; 
+    }
+    .arco-select-view
+    {
+        border-radius: 10px 10px 0px 0px; 
+    }
+    .hljs
+    {
+        border-radius: 5px;
+        filter: invert(90%);
+    }
+    /*个人信息*/
+    .custom-upload-avatar
+    {
+        left:100px;
+    }
+    }
+    
+    @-moz-document regexp("https://(www.)?517coding.com/") {
+    /*主页*/
+    .index_hero__96Pn_
+    {
+        margin: auto;
+        width: 1400px;
+        height: 100px;
+        margin-top: 1.8px;
+        border-radius: 0px 0px 30px 30px;
+    }
+    .index_title__OHHeW
+    {
+        margin-top: 10px;
+    }
+    .arco-card-size-default
+    {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .layout-header_navbar__a866S
+    {
+        margin: auto;
+        width: 1400px;
+        margin-top: 2px;
+        border-radius: 30px 30px 0px 0px;
+        background-color: #232324;
+    }
+    }
+    
+    @-moz-document regexp("https://(www.)?517coding.com/contests/.*") {
+    /*比赛*/
+    /*列表*/
+    .arco-table-content-scroll
+    {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    
+    }
+    
+    @-moz-document regexp("https://(www.)?517coding.com/problemsets/.*/problems/.*") {
+    /*题目*/
+    body
+    {
+        background-image: url(https://image.wsq127.top/file/41137d6c4115155569877.jpg) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .main-layouts_main__byKRK
+    {
+        background-color: #fff0;
+    }
+    p,h1,h2,h3,h5,h6,a
+    {
+        color: #EFF0EF;
+    }
+    /*滚动条*/
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(137, 81, 234, .99);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #5e72e4;
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 10px;
+        background-color: rgba(0, 0, 0, .12);
+    }
+    /*顶栏*/
+    .layout_left__I4ZCA>a>img
+    {
+        content: url("https://image.wsq127.top/file/8f9de0dc753a347ed745d.png");
+        transform: translateX(21px);
+    }
+    .arco-layout
+    {
+        background-color: #fff0;
+    }
+    .arco-layout-header
+    {
+        background-color: #fff0;
+    }
+    .layout_navbar__CZDbF
+    {
+        margin: auto;
+        width: 1400px;
+        height: 80px;
+        margin-top: 2px;
+        border-radius: 30px 30px 0px 0px;
+        background-color: #232324;
+    }
+    .arco-layout-content
+    {
+        margin: auto;
+        width: 1400px;
+        border-radius: 0px 0px 30px 30px;
+    }
+    /**/
+    .index_container__mPQuV
+    {
+        border-radius: 0px 0px 30px 30px;
+    }
+    .description_descriptionContent__th0F7
+    {
+        border-radius: 0px 0px 0px 30px;
+    }
+    .index_tabs-pane__JHnD2
+    {
+        border-radius: 0px 0px 0px 30px;
+    }
+    .description_footer__hf6ag
+    {
+        border-radius: 0px 0px 0px 30px;
+    }
+    .description_footer__hf6ag>div>div>.arco-btn
+    {
+        transform: translateX(20px);
+    }
+    .editor_footer__7bELm>div:nth-child(2)
+    {
+        transform: translateX(-20px);
+    }
+    .index_contest-layout-basic__wvbdI
+    {
+        border-radius: 15px;
+        background-color: #232324F0;
+    }
+    .problem_container__tWXAL
+    {
+        margin-left: 10px;
+    }
+    .editor_footer__PdYnR
+    {
+        margin-bottom: 10px;
+        border-radius: 0px 0px 10px 10px; 
+    }
+    .hljs
+    {
+        border-radius: 5px; 
+    }
+    .index_container__mPQuV
+    {
+        height: 700px;
+    }
+    }
+    
+    @-moz-document regexp("https://(www.)?517coding.com/tests") {
+    /*段位测试*/
+    .container
+    {
+        background-color: #232324;
+    }
+    }
+    
+    @-moz-document regexp("https://(www.)?517coding.com/user/login") {
+    /*登录*/
+    .login_container__45VWA
+    {
+        margin: auto;
+        margin-top: 50px;
+        height: 500px;
+        width: 600px;
+        border-radius: 10px;
+        background-color: #232324b3;
+    }
+    }
+    
+    @-moz-document regexp("https://(www.)?517coding.com/u/.*") {
+    /*用户主页*/
+    .arco-card
+    {
+        margin-top: 20px;
+    }
+    .arco-tabs-content
+    {
+        margin-top: 10px;
+    }
+    body>div:nth-child(1)>section>main>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)
+    {
+        height: 207px;
+    }
+    body>div:nth-child(1)>section>main>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div
+    {
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+    .arco-avatar-image
+    {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.5s ease;
+    }
+    .arco-avatar-image:hover
+    {
+      transform: rotate(360deg);
+    }
+    }
+    
+    @-moz-document regexp("https://(www.)?517coding.com/rankings") {
+    /*排行*/
+    .arco-row>:nth-of-type(2)
+    {
+        margin-top: 15px;
+    }
+    }

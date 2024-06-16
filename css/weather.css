@@ -1,0 +1,7 @@
+
+@media screen and (orientation:portrait) {
+	#he-plugin-simple
+    {
+        display:none;
+    }
+}

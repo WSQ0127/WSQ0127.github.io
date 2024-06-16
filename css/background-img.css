@@ -1,0 +1,14 @@
+
+#web_bg
+{
+    background-image: url(https://image.wsq127.top/file/4df2b7eb29a6b813d6bd1.png);
+    background-size: cover;
+    background-position: center;
+}
+[data-theme='dark'] #web_bg:before
+{
+    background-image: url(https://image.wsq127.top/file/579fc1421c61dd1fbe57d.png);
+    background-size: cover;
+    background-position: center;
+    animation: bgltd 0.3s ease forwards;
+}

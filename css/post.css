@@ -1,0 +1,13 @@
+[data-theme='dark'] .magnet_link_context>*
+{
+    color: #B8B8B8;
+    transition: all 0.4s ease;
+}
+.magnet_item:hover>.magnet_link>.magnet_link_context>*
+{
+    color: white;
+}
+[data-theme='light'] .magnet_link_context:not(:hover)
+{
+    background-color: #FFFFFF;
+}
